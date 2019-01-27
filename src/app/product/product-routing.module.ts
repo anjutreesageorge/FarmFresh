@@ -6,6 +6,7 @@ import { ProductAddComponent } from './product-add/product-add.component';
 
 const routes: Routes = [
   { path: 'add', component: ProductAddComponent },
+  { path: 'search', component: ProductAddComponent },
 ];
 
 @NgModule({

@@ -10,8 +10,6 @@ import { AuthInterceptor } from './auth/auth-interceptor';
 import { ErrorInterceptor } from './error-interceptor';
 import { ErrorComponent } from './error/error.component';
 import { AngularMaterialModule } from './angular-material.module';
-import { ProductListComponent } from './product/product-list/product-list.component';
-import { ProductAddComponent } from './product/product-add/product-add.component';
 import { FAQComponent } from './faq/faq.component';
 import { ReorderComponent } from './reorder/reorder.component';
 import { BookTimeSlotComponent } from './book-time-slot/book-time-slot.component';
@@ -19,7 +17,6 @@ import { ProductSearchComponent } from './product/product-search/product-search.
 import { ProductSortComponent } from './product/product-sort/product-sort.component';
 import { CartAddComponent } from './cart/cart-add/cart-add.component';
 import { CartComponent } from './cart/cart.component';
-import { ProductShowComponent } from './product/product-show/product-show.component';
 import { CheckoutComponent } from './cart/checkout/checkout.component';
 import { PaymentComponent } from './payment/payment.component';
 import { CustomerRatingComponent } from './customer-rating/customer-rating.component';
@@ -40,8 +37,6 @@ import { BodyComponent } from './body/body.component';
     FAQComponent,
     ReorderComponent,
     BookTimeSlotComponent,
-    ProductSearchComponent,
-    ProductSortComponent,
     CartAddComponent,
     CartComponent,
     CheckoutComponent,
@@ -52,7 +47,7 @@ import { BodyComponent } from './body/body.component';
     AnalyticsComponent,
     FooterComponent,
     SideBarComponent,
-    BodyComponent
+    BodyComponent,
   ],
   imports: [
     BrowserModule,
